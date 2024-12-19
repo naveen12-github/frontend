@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+@media screen and (max-width: 800px) {
+   #sli{
+    height: 50vh; /* Adjust the height to a smaller value */
+    padding: 10px;
+   }
+   #b1 {
+    padding: 10px 22px; /* Further reduce padding */
+    font-size: 0.55rem; /* Make the text smaller */
+    width: auto;
+    margin-top: -40px;
+}
+}
